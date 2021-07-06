@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+h1,h2,h3,h4{
+    font-family: 'Merriweather', serif;
+}
+a{
+    text-decoration: none;
+    color:#FFf ;
+    background-image: linear-gradient(#179af1,#a8d6e9);
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+
+}
+a:hover{
+    border: 2px solid;
+    background: transparent;
+    color: #000;
+    font-weight: bold;
+    border-radius: 0;
+    border-image:linear-gradient(#10AEFA, #9198e5, #00121b 20px) 1;
+}
+.btn{
+    margin-top: 50px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font:9px
+}
+p{
+    font-size: 16px;
+}
+.d-flex{
+    display: flex;
+    gap: 20px;
+}
+span{
+    color: #14B8FC;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+ 
+}
+.menu li a{
+    text-decoration: none;
+    margin-left:10px;
+    padding: 5px 10px;
+}
+.menu li a:hover{
+    background:transparent;
+    transition: 0.5s;
+}
+/* later-----------------------------------------
+-------------------------------
+-------------------------------------------- */
+.top-section{
+    margin-bottom: 30px;
+}
+.flex-width{
+    width: 40%;
+}
+.top-text{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.top-img{
+    margin-left:80px;
+    margin-top: 80px;
+}
+.top-img img{
+    width: 100%;
+}
+
+/* second section */
+
+.about-section{
+ background: url(images/shapes/shape\ 2.jpg) no-repeat center top / cover;
+ margin-bottom: 60px;
+}
+.about-img{
+    margin-left:100px;
+}
+.about-text{
+    margin:80px 30px;
+
+}
+.about-img img{
+    width: 50%;
+    margin-top: 50px;
+}
+
+/* thrd section----------
+---------------------- */
+.recipie-sec{
+    margin-bottom: 60px;
+}
+.recipie-top h1{
+    text-align: center;
+}
+.recipie-top p{
+    width: 60%;
+    margin-left:20%;
+    text-align: center;
+}
+.title-1 img{
+    width: 100%;
+}
+.title-1{
+    padding: 7px;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 15px;
+}
+.reci-bottom{
+    width: 80%;
+    margin:30px 10%;
+
+}
+/* count--------------------
+--------------- */
+.count-section{
+    margin: 100px 0;
+}
+.count{
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 3px 3px 10px #000;
+    border-radius: 10px;
+}
+.count-item{
+    margin-left: 20%;
+}
